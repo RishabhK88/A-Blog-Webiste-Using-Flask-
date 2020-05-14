@@ -15,8 +15,8 @@ login_manager.login_message_category = "info"
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 587
 app.config["MAIL_USE_TLS"] = True
-app.config["MAIL_USERNAME"] = "rishabhk8888@gmail.com"
-app.config["MAIL_PASSWORD"] = "michaeljacksonrocks"
+app.config["MAIL_USERNAME"] = "Enter your email id"
+app.config["MAIL_PASSWORD"] = "Enter your email password"
 mail = Mail(app)
 
 from flaskblog import routes
